@@ -37,7 +37,7 @@ public class FileWork {
             Collections.sort(result);
             return result.toArray(new String[0]);
         } catch (IOException e) {
-            throw new  RuntimeException("Can't read file", e);
+            throw new RuntimeException("Can't read file", e);
         }
     }
 }
